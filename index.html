@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="uk-scrollspy-init-inview uk-scrollspy-inview uk-row-first" data-uk-scrollspy="{cls:''}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="img/favi.ico" rel="shorcut icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="miestilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <title>Escape Room Torre del Mar</title>
+</head>
+
+<body>
+    
+    <div class="container-fluid">
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <a class="navbar-brand" href="#"><img src="img/favicon.jpg" width="60px"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hola">¿Quienes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#donde">¿Donde estamos?</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link " href="#aventuras" tabindex="-1" aria-disabled="true">Aventuras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#contacto" tabindex="-1" aria-disabled="true">Contacto</a>
+                    </li>
+                </ul>
+               
+            </div>
+        </nav>
+        <!--CARROUSEL-->
+        <header>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" id="inicio">
+                    <div class="carousel-item active">
+                        <img src="img/imagen1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-dark bg-white">
+                            <h1>Bienvenidos a Torrenigma</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/imagen2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-dark bg-white">
+                            <h1>Tienes una misión - ¡escapar!</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/imagen3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-dark bg-white">
+                            <h1>Sigue las pistas, completa los objetivos...</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/imagen4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-dark bg-white">
+                            <h1>Tienes 60 minutos para lograr escapar...</h1>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </header>
+        <section>
+            <!--JUMBOTRON-->
+            <div class="jumbotron bg-light" id="hola">
+                <h1 class="display-4">Bienvenidos a Torrenigma!</h1>
+                <p class="lead">¡No somos franquicia, nuestras aventuras son exclusivas!</p>
+                <hr class="my-4">
+                <p>Torrenigma es mucho más que un Escape Room; es la excitante aventura que buscas. 
+                    Nuestros juegos están diseñados con muchísimo cariño y dedicación para que sean 
+                    todo un reto, incentivando la cooperación, animando a los jugadores a agudizar su
+                     ingenio, lógica y coordinación. Todo ello en una atmósfera cuidada al detalle para
+                      que la inmersión sea máxima.</p>
+
+                <p>Es la actividad perfecta para realizar con compañeros de trabajo, grupos de amigos y familia. Sana, segura y divertida.</p>
+
+                <p>Además, apostamos por una dificultad superior a la media española, en la que los juegos
+                     son demasiado sencillos y básicos, o se ayuda en exceso al escapista, perdiendo la emoción
+                      de resolver los rompecabezas y enigmas por ti mismo/a.</p>
+
+                <p>Un Juego de Escape del que sabes que seguro escaparás es mucho menos emocionante.
+
+                    Aquí el éxito o el fracaso dependerá exclusivamente de tu equipo, salvo que juguéis 
+                    una partida para novatos o iniciados</p>
+
+                <h3>¡ESTO ES... TORRENIGMA!</h3>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModalCenter" id="boton">
+                    Ver precios
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalCenterTitle">Precios</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/precios1.png" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipo">
+            <!--CARD DECK-->
+            <div id= "aventuras" class="card-deck">
+                <div class="card border-0">
+                    <img src="img/sala2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">El amuleto arcano</h5>
+                        <p class="card-text">Una agradable tarde por el bosque se tuerce en una descomunal
+                            tormenta electrica que cae sobre vuestras cabezas. Encontrais una mansión abandonada
+                            y decidis entrar, rapidamente veis que algo no anda bien. 
+                        </p>
+                        <p class="card-text"><small class="text-muted">Estrenada en 2017</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/sala1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Un plan brillante</h5>
+                        <p class="card-text">Lupin planea un gran un robo de un famoso diamante negro.Una leyenda 
+                            popular sostiene que la piedra de 88 kilates trae buena suerte a cualquiera que lo toque.
+                             Lupín cuenta con la ayuda de sus aprendices ¿lograréis ayudarle?</p>
+                        <p class="card-text"><small class="text-muted">Estrenada en 2019</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/sala3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto secreto</h5>
+                        <p class="card-text">Tú y tu equipo de Operaciones Especiales trabajáis en la ‘Sección 09’ de la despiadada 
+                            TowerNET Corporation, una compañía dedicada al desarrollo de nuevas tecnologías e ingeniería informática.
+                            Debéis infiltraros en el laboratorio y restablecer la comunicación con el equipo de desarrollo y su supervisora.</p>
+                        <p class="card-text"><small class="text-muted">Proximamente en 2020</small></p>
+                    </div>
+                </div>
+                
+                </div>
+
+            </div>
+
+        </section>
+                <!--FORMULARIO-->
+                <section id="contacto">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-0">
+        
+                            </div>
+                            <div class="col-md-6 col-sm-12 p-5  ">
+                                <h2 class="text-center">Formulario de contacto</h2>
+                                <form class="border border-primary rounded p-4" method="POST" action="mailto:yoquese@yomismo.com"
+                                    enctype="multipart/form-data">
+                                    <div class="form-group">
+                                            <label for="exampleInputText1">Nombre y Apellidos:</label>
+                                            <input type="text" class="form-control" id="exampleInputText1" aria-describedby="emailHelp"
+                                                placeholder="Introduce nombre">
+                                        </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Correo electrónico:</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                            placeholder="Introduce email">
+                                        <small id="emailHelp" class="form-text text-muted">ejemplo@hotmail.com </small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Contraseña:</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Tipo de consulta:</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option value="0">--elige una opcion</option>
+                                            <option value="1">Edad minima</option>
+                                            <option value="2">Precios</option>
+                                            <option value="3">Reserva</option>
+                                            <option value="4">Otros</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Acepto las condiciones de
+                                            privacidad</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </form>
+                            </div>
+                            <div class="class-md-3 col-sm-0">
+        
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        <!--Grid-->
+        <section id="donde">
+            <div class="container-fluid bg-dark text-light p-5">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 ">
+                        <dl class="text-center">
+                            <dt>Dirección:</dt>
+                            <dd>C/ Isidoro Rivas 3, 29740</dd>
+                            <dt>Correo:</dt>
+                            <dd>torrenigma@gmail.com</dd>
+                            <dt>Teléfono:</dt>
+                            <dd>691 91 26 30</dd>
+                            <dt>Horario:</dt>
+                            <dd>10:00 - 22:00</dd>
+                            <dt>Redes Sociales:</dt>
+                            <dd><a href="https://www.instagram.com/torrenigma/" target="blank"><button style='font-size:24px'>Instagram <i class='fa fa-instagram'></i></button></a> </dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-6 col-sm-12 embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.2430936324113!2d-4.097294084711786!3d36.740735679960856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7247bc787586af%3A0x75e9a92f115438a6!2sTorrenigma%20Escape%20Room!5e0!3m2!1ses!2ses!4v1582283383627!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+    </div>
+
+</body>
+
+</html>
+

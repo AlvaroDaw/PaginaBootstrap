@@ -1,0 +1,25 @@
+body{
+    background-image: url("img/back.jpg");
+    font-family: 'Montserrat';
+}
+#wrapper{
+    background-color:white;
+    height: 500px;
+}
+
+#contacto{
+    background-color: white;
+    margin-top: 3em;
+    font-family: 'Montserrat';
+}
+
+#donde{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#aventuras,#hola{
+    font-family: 'Montserrat';
+}
+
+
